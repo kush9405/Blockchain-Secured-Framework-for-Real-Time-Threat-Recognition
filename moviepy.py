@@ -23,7 +23,7 @@ def split_video_audio(video_path, audio_output_path, video_output_path):
         print(f"Error: {e}")
 
 # Example usage:
-video_file = "my_video.mp4"  # Replace with your video file
+video_file = "input.mp4"  # Replace with your video file
 audio_file = "audio.mp3"
 video_no_audio_file = "video_no_audio.mp4"
 
