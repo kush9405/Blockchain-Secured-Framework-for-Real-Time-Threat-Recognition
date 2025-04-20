@@ -1,4 +1,0 @@
-opencv-python
-cryptography
-ffmpeg-python
-threading
