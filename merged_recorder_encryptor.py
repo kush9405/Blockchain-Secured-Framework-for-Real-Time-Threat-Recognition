@@ -8,7 +8,7 @@ import hashlib
 from cryptography.fernet import Fernet
 
 class CameraAudioRecorder:
-    def __init__(self, capture_duration=10, output_directory=".", camera_id=0, sample_rate=44100):
+    def __init__(self, capture_duration=10, output_directory=".", camera_id=1, sample_rate=44100):
         """
         Initializes the CameraAudioRecorder.
 
@@ -206,7 +206,7 @@ class BlockchainVideoEncryptor:
             print(block)
 
 if __name__ == "__main__":
-    recorder = CameraAudioRecorder(capture_duration=10, output_directory="recordings", camera_id=0, sample_rate=44100)
+    recorder = CameraAudioRecorder(capture_duration=10, output_directory="recordings", camera_id=1, sample_rate=44100)
     
     # Start recording
     recorder.start_recording()
